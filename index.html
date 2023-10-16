@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameverwaltung App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Game Shop</h1>
+        <div class="content">
+            <div class="games-container">
+                <h2>Spiele</h2>
+                <ul id="game-list">
+                    <!-- Hier werden Spiele angezeigt -->
+                </ul>
+            </div>
+            <div class="details-container">
+                <div id="game-details">
+                    <!-- Hier werden Spielinformationen angezeigt -->
+                </div>
+                <div id="cart-summary">
+                    <h2>Warenkorb</h2>
+                    <ul id="cart">
+                        <!-- Hier wird der Warenkorb angezeigt -->
+                    </ul>
+                    <div class="checkout-container">
+                        <div id="cart-total">
+                            Gesamt: CHF <span id="total-amount">0.00</span>
+                        </div>
+                        <button id="checkout">Zur Kasse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
